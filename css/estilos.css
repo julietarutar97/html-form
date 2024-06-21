@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --fuente: "Poppins", sans-serif;
+    --fuente-titulos: "Poppins", sans-serif;
+    --fuente-parrafos: "Roboto", sans-serif;
     --backgroud-color:rgba(177,206,216,255);
     --colorPrimario:  rgba(57,156,126,255);
 }
 
 body{
     background-color: var(--backgroud-color);
-    font-family: var(--fuente);
+    /* font-family: var(--fuente-titulos); */
     display: flex;
+}
+h2{
+    font-family: var(--fuente-titulos);
+}
+
+p, label, input{
+    font-family: var(--fuente-parrafos);
 }
 
 .section__contenedor{
@@ -27,17 +36,34 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.imagen__bolsa{
+    width: 300px;
+}
+
+.div__titulo-y-descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section__titulo div h2{
     font-weight: 550;
     letter-spacing: 1.5x;
-}
 
+}
+.p__descripcion{
+    width: 300px;
+    font-size: 12px;
+    opacity: 0.4;
+}
 .section__formulario{
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
 }
