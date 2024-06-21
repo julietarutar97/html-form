@@ -11,3 +11,33 @@ body{
     font-family: var(--fuente);
     display: flex;
 }
+
+.section__contenedor{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    margin: 60px 40px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.section__titulo{
+    background-color: var(--colorPrimario);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__titulo div h2{
+    font-weight: 550;
+    letter-spacing: 1.5x;
+}
+
+.section__formulario{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
