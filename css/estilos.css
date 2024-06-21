@@ -15,10 +15,12 @@ body{
 }
 h2{
     font-family: var(--fuente-titulos);
+    margin-bottom: 0;
 }
 
 p, label, input{
     font-family: var(--fuente-parrafos);
+    margin-top: 8px;
 }
 
 .section__contenedor{
@@ -37,7 +39,7 @@ p, label, input{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    text-align: center;
+    text-align: start;
 }
 .imagen__bolsa{
     width: 300px;
@@ -47,6 +49,7 @@ p, label, input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 250px;
 }
 
 .section__titulo div h2{
@@ -55,7 +58,6 @@ p, label, input{
 
 }
 .p__descripcion{
-    width: 300px;
     font-size: 12px;
     opacity: 0.4;
 }
