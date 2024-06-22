@@ -158,3 +158,35 @@ label{
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
+.div__botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.a__back, .a__next{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    background-color: var(--colorPrimario);
+    font-family: var(--fuente-titulos);
+    font-size: var(--tamanio-formulario);
+    padding: 15px 25px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.img__flechaBack, .img__flechaNext{
+    width: 25px;
+}
+
+.img__flechaBack{
+    padding-right: 5px;
+}
+
+.img__flechaNext{
+    padding-right: 5px;
+    transform: rotate(180deg);
+}
