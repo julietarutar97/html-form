@@ -8,6 +8,7 @@
     --colorPrimario:  rgba(57,156,126,255);
     --tamanio-tiutlos: 35px;
     --tamanio-textos: 16px;
+    --tamanio-formulario: 20px;
 }
 
 body{
@@ -21,9 +22,14 @@ h2{
     font-size: var(--tamanio-tiutlos);
 }
 
-p, label, input{
+p{
     font-family: var(--fuente-parrafos);
     margin-top: 8px;
+}
+
+label{
+    font-family: var(--fuente-titulos);
+    font-size: var(--tamanio-formulario);
 }
 
 .section__contenedor{
@@ -117,8 +123,38 @@ p, label, input{
     border: 1px solid rgba(241,241,241,255);
     background-color: rgba(241,241,241,255);
     padding: 0 20px;
-    font-size: 20px;
+    font-size: var(--tamanio-formulario);
     font-family: var(--fuente-titulos);
     color: rgb(159,153,153);
 
+}
+
+.div__cuentaEnBanco{
+    align-items: flex-start;
+    margin: 20px 15px;
+}
+.div__radio{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.div__radio label{
+    font-weight: 600;
+}
+.input__radio{
+    margin-right: 15px;
+    appearance: none;
+    /* background-color: rgb(159,153,153); */
+    border: 12px solid rgba(241,241,241,255);
+    border-radius: 50%;
+}
+
+.input__radio:checked{
+    border: 12px solid var(--colorPrimario);
+    transition: 0.5s;
+}
+
+.input__radio:checked + label{
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
 }
