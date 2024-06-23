@@ -23,7 +23,7 @@ Puedes ver el proyecto desplegado en el siguiente enlace:
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/julietarutar97/html-form.git
 
 
 2. Navegar al Directorio del Proyecto:
@@ -33,7 +33,7 @@ Puedes ver el proyecto desplegado en el siguiente enlace:
 
 3. Abrir el Archivo HTML en el Navegador:
     
-    Simplemente abre el archivo index.html en tu navegador preferido.
+    Simplemente abre el archivo index.html en tu navegador.
 
 ## Autor
 
