@@ -1,7 +1,5 @@
 /*Medidas standar de movile*/
-@media (max-width: 320px){
 
-}
 
 
 @media (max-width: 1280px){
@@ -115,5 +113,27 @@
     .select__flecha{
         top: 890px;
         right: 130px;
+     }
+}
+
+@media (max-width: 320px){
+    .div__tituloBanco{
+        width: 300px;
+    }
+    .p__descripcion{
+        width: 290px;
+    }
+    .div__contenedorTituloDescripcion{
+        align-self: center;
+        padding: 0;
+    }
+
+    .select__flecha{
+        top: 850px;
+        right: 60px;
+     }
+
+     .section__titulo{
+        padding-top: 60px;
      }
 }
