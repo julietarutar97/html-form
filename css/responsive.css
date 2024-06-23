@@ -3,8 +3,7 @@
 
 }
 @media (max-width: 480px){}
-@media (max-width: 768px){
-/* */}
+
 @media (max-width: 1280px){
     .section__titulo{
         padding-top: 120px;
@@ -18,11 +17,11 @@
     p{
         font-size: 15px;
     }
-    .section__contenedor{
+    
+    .section_.section__contenedor{
         width: 900px;
         margin: 60px 50px;
-    }
-    .section__titulo{
+    }_titulo{
         width: 450px;
     }
 
@@ -65,4 +64,34 @@
     .div__botones{
         margin-right: 40px;
     }
+}
+
+@media (max-width: 768px){
+    .section__contenedor{
+        width: 700px;
+        margin: 44px 34px;
+    }
+
+    .div__contenedorTituloDescripcion{
+        padding-left: 20px;
+        width: 300px;
+    }
+
+    .section__formulario, .section__titulo{
+        width: 350px;
+    }
+
+    .section__formulario{
+    
+      padding-top: 40px;
+      padding-bottom: 17px;
+    }
+    .input__amount, .select__reason{
+        margin: 20px 50px 2px;
+}
+
+.select__flecha{
+    top: 360px;
+    right: 110px;
+ }
 }
