@@ -4,9 +4,26 @@
 
 @media (max-width: 1280px){
     .section__titulo{
-        padding-top: 120px;
-        padding-bottom: 130px; 
+        padding-top: 108px;
+        padding-bottom: 118px; 
     }
+    .div__contenedorTituloDescripcion{
+        width: 410px;
+        margin-left: 90px;
+    }
+
+    .input__amount, .select__reason{
+        margin: 20px 90px 2px;
+    }
+    .div__cuentaEnBanco {
+        margin: 15px 120px;
+    }
+
+    .select__flecha{
+        top: 470px;
+        right: 190px;
+     }
+    
 }
 @media (max-width: 1024px){
     h2{
@@ -38,8 +55,6 @@
         width: 370px;
     }
     .input__amount, .select__reason{
-        height: 65px;
-        margin-top: 20px;
         margin: 20px 70px 2px;
 }
     .p__instruccion{
@@ -51,8 +66,8 @@
     }
 
     .select__flecha{
-        top: 420px;
-        right: 150px;
+        top: 405px;
+        right: 170px;
      }
 
      .div__cuentaEnBanco{
