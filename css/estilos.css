@@ -15,6 +15,7 @@ body{
     background-color: var(--backgroud-color);
     /* font-family: var(--fuente-titulos); */
     display: flex;
+    justify-content: center;
 }
 h2{
     font-family: var(--fuente-titulos);
@@ -25,6 +26,7 @@ h2{
 p{
     font-family: var(--fuente-parrafos);
     margin-top: 8px;
+    font-size: var(--tamanio-textos);
 }
 
 label{
@@ -58,13 +60,20 @@ label{
     width: 400px;
 }
 
-.div__titulo-y-descripcion{
+.div__contenedorTituloDescripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 140px;
+    width: 100%;
+}
+.div__tituloBanco{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
 
+}
 .section__titulo div h2{
     font-weight: 550;
     letter-spacing: 1.5x;
@@ -72,11 +81,11 @@ label{
 }
 .p__descripcion{
     width: 370px;
-    font-size: var(--tamanio-textos);
+    /* font-size: var(--tamanio-textos); */
     opacity: 0.4;
 }
 .p__instruccion{
-    font-size: var(--tamanio-textos);
+    /* font-size: var(--tamanio-textos); */
     opacity: 0.4;
     width: 400px;
 }
@@ -92,10 +101,10 @@ label{
     border-radius: 0 7px 7px 0;
 
 }
-.h2__titulo{
+/* .h2__titulo{
     align-self: flex-start;
     padding-left: 130px;
-}
+} */
 .formulario{
     display: flex;
     flex-direction: column;

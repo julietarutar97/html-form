@@ -1,0 +1,68 @@
+/*Medidas standar de movile*/
+@media (max-width: 320px){
+
+}
+@media (max-width: 480px){}
+@media (max-width: 768px){
+/* */}
+@media (max-width: 1280px){
+    .section__titulo{
+        padding-top: 120px;
+        padding-bottom: 130px; 
+    }
+}
+@media (max-width: 1024px){
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .section__contenedor{
+        width: 900px;
+        margin: 60px 50px;
+    }
+    .section__titulo{
+        width: 450px;
+    }
+
+    .section__formulario{
+        width: 450px;
+        padding-top: 42px;
+    }
+
+    .imagen__bolsa{
+        width: 300px;
+    }
+
+    .div__contenedorTituloDescripcion{
+        margin-left: 0;
+        padding-left: 70px;
+        width: 370px;
+    }
+    .input__amount, .select__reason{
+        height: 65px;
+        margin-top: 20px;
+        margin: 20px 70px 2px;
+}
+    .p__instruccion{
+        width: 300px;
+    }
+
+    .p__descripcion{
+        width: 310px;
+    }
+
+    .select__flecha{
+        top: 420px;
+        right: 150px;
+     }
+
+     .div__cuentaEnBanco{
+        margin: 15px 90px;
+    }
+
+    .div__botones{
+        margin-right: 40px;
+    }
+}
