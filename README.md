@@ -27,11 +27,12 @@ Puedes ver el proyecto desplegado en el siguiente enlace:
 
 
 2. Navegar al Directorio del Proyecto:
-
-    cd nombre-del-repositorio
+    ```bash
+    cd html-form
 
 
 3. Abrir el Archivo HTML en el Navegador:
+    
     Simplemente abre el archivo index.html en tu navegador preferido.
 
 ## Autor
